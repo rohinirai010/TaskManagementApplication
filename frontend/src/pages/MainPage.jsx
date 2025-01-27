@@ -3,7 +3,7 @@ import MainLayout from "../layouts/MainLayout";
 import Dashboard from "../components/Dashboard/Dashboard";
 
 const Trading = ({}) => {
-  const userRole = 'employee';
+  const userRole = 'admin';
   return (
     <MainLayout>
       <Dashboard userRole={userRole} />

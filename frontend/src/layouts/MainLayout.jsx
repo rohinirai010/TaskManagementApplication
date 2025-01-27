@@ -4,7 +4,7 @@ import Sidebar from "../components/Navbar/Sidebar";
 
 const MainLayout = ({ children }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false); // Sidebar state
-  const userRole = 'employee';
+  const userRole = 'admin';
 
   return (
     <div className="flex h-screen">
