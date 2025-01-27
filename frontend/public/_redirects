@@ -1,2 +1,1 @@
-# _redirects file
-/  /login  200
+/* /index.html 200
